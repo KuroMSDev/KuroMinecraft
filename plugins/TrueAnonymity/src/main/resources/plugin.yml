@@ -1,0 +1,8 @@
+name: TrueAnonymity
+version: 1.0.0
+main: com.kuro.anonymity.TrueAnonymity
+api-version: 1.21
+author: Kuro
+description: Complete name anonymity - hides real names everywhere
+
+depend: [Essentials]

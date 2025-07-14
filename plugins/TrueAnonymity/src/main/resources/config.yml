@@ -1,0 +1,7 @@
+# TrueAnonymity Configuration
+# Map real names to aliases
+
+aliases:
+  PashaNull: "Kuro"
+  # Add more aliases below:
+  # RealName: "AliasName"
