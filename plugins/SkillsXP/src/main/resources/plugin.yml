@@ -1,0 +1,12 @@
+name: SkillsXP
+version: 1.0.0
+main: com.kuro.skillsxp.SkillsXP
+api-version: 1.21
+author: Kuro
+description: Simple XP system for various activities
+
+commands:
+  skills:
+    description: View your skill levels and XP
+    usage: /skills
+    aliases: [xp, level]

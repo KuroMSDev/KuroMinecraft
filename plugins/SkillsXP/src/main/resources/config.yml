@@ -1,0 +1,30 @@
+# SkillsXP Configuration
+
+# XP values for different activities
+xp-values:
+  woodcutting:
+    default: 1
+  mining:
+    coal: 1
+    iron: 2
+    gold: 3
+    diamond: 5
+    emerald: 5
+    ancient_debris: 10
+  farming:
+    default: 1
+  combat:
+    default: 5
+  fishing:
+    default: 10
+  building:
+    default: 1
+
+# XP required per level (level * this value)
+xp-per-level: 100
+
+# Show action bar messages
+show-actionbar: true
+
+# Save player data interval (minutes)
+autosave-interval: 5
