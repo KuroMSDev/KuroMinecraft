@@ -1,0 +1,22 @@
+name: SecureAuth
+version: 1.0.0
+main: com.kuro.secureauth.SecureAuth
+api-version: 1.21
+author: Kuro
+description: IP-based authentication system with password protection
+
+commands:
+  register:
+    description: Register a new account with password
+    usage: /register <password>
+    aliases: [reg]
+  
+  login:
+    description: Login with your password
+    usage: /login <password>
+    aliases: [l]
+  
+  changepassword:
+    description: Change your password
+    usage: /changepassword <oldpassword> <newpassword>
+    aliases: [changepass, cp]

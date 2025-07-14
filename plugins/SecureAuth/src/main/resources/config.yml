@@ -1,0 +1,18 @@
+# SecureAuth Configuration
+
+# Login timeout in seconds
+login-timeout: 60
+
+# Maximum login attempts before kick
+max-login-attempts: 3
+
+# Allow movement while not logged in
+allow-movement: false
+
+# Messages
+messages:
+  register-prompt: "&eWelcome! Please register with: &a/register <password>"
+  login-prompt: "&ePlease login with: &a/login <password>"
+  new-ip-detected: "&cNew IP detected: %ip%"
+  auto-login: "&aAutomatically logged in from trusted IP!"
+  login-timeout: "&cLogin timeout! Please login within 60 seconds."
