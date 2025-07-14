@@ -1,0 +1,17 @@
+name: ExamplePlugin
+version: 1.0.0
+main: com.example.myplugin.ExamplePlugin
+api-version: 1.21
+author: Kuro
+description: Example plugin template
+
+commands:
+  hello:
+    description: Sends a hello message
+    usage: /hello
+    permission: example.hello
+
+permissions:
+  example.hello:
+    description: Allows use of /hello command
+    default: true
