@@ -1,0 +1,11 @@
+name: HPBars
+main: com.kuro.hpbars.HPBars
+version: 1.0.0
+api-version: 1.21
+author: Kuro
+description: Displays health bars above mobs
+
+permissions:
+  hpbars.reload:
+    description: Allows reloading the HPBars configuration
+    default: op

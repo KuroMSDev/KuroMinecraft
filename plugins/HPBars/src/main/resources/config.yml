@@ -1,0 +1,17 @@
+# HPBars Configuration
+
+# Show health bars for passive mobs (animals, villagers, etc.)
+show-for-passive: true
+
+# Show health bars for hostile mobs (zombies, skeletons, etc.)
+show-for-hostile: true
+
+# Maximum distance (in blocks) at which health bars are visible
+display-range: 10.0
+
+# Format for the health display
+# Available placeholders:
+# {current} - Current health value
+# {max} - Maximum health value
+# Color codes are supported using & symbol
+health-format: "&c❤ &f{current}/{max}"

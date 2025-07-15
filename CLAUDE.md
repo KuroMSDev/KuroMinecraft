@@ -16,3 +16,8 @@
 - Always run lint/typecheck commands after code changes
 - Reload plugins after configuration changes
 - Keep backups of important configurations
+- **ALWAYS** check and fix firewall rules after server restart:
+  ```bash
+  iptables -L INPUT -n | grep 25565 || (iptables -A INPUT -p tcp --dport 25565 -j ACCEPT && iptables -A INPUT -p udp --dport 25565 -j ACCEPT)
+  ```
+- The start.sh script should handle this automatically, but verify if "getsockopt" errors occur
